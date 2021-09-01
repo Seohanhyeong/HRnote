@@ -1,0 +1,82 @@
+<html>
+
+  <head>
+    <title>HR note</title>
+    <style>
+    h1 {
+      text-align:center;
+    }
+    .homeimg {
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .introduce {
+      text-align:center;
+      border-bottom:2px black solid;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns:150px 1fr;
+    }
+    #grid h3, ol{
+      border-right:1px black solid;
+    }
+    </style>
+  </head>
+
+  <body>
+      <h1> 서한형 노무사의 HR note</h1>
+      <img src="home picture1.jpg" height="300" class="homeimg">
+        <div class="introduce">
+        <p> 더 많은 것을 배우고 익히기 위한 시도.
+          <br>노동법과 프로그래밍을 동시에 공부하기 위하여,
+          <br>습득한 인사노무 지식을 웹 페이지로 정리해보는 도전을 하고 있습니다.
+        </p>
+        </div>
+  <div id="grid">
+    <div>
+      <h3>컨설턴트</h3>
+        <ol>
+          <li>채용</li>
+          <li>교육</li>
+          <li>평가</li>
+          <li>보상</li>
+        </ol>
+      <h3>노무사</h3>
+        <ol>
+         <li>노동법</li>
+       </ol>
+    </div>
+      <p>blabla</p>
+  </div>
+  </body>
+
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1MDLuUCPWwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<input type="checkbox">
+<p>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://hr-note.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+</html>
